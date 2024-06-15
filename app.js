@@ -67,7 +67,7 @@ const playgame = (playerchoice) => {
         if (playerchoice === 'rock') {
             userwin = computer === 'paper' ? false : true;
         } else if (playerchoice === 'paper') {
-            userwin = computer === 'scissors' ? false : true;
+            userwin = computer === 'scissor' ? false : true;
         } else {
             userwin = computer === 'rock' ? false : true;
 
