@@ -11,7 +11,7 @@ let compmove = document.querySelector("#compmove");
 //------------------ computer move -----------// 
 
 const computerchoice = () => {
-    const option = ['rock', 'paper', 'scissors'];
+    const option = [ 'paper', 'scissor','rock'];
     const randidx = Math.floor(Math.random() * option.length);
     return option[randidx];
 }
